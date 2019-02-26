@@ -202,6 +202,7 @@ WantedBy=multi-user.target
 ```
 Enable it and reboot
 ```sh
+$ sudo systemctl enable nwfix.service
 $ sudo systemctl start nwfix.service
 $ sudo reboot
 ```
